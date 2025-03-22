@@ -31,26 +31,17 @@
     
 ## Examples
 
-1. Standard ACL Example (Blocking a Specific Source IP)
+1. Simple ACL Configuration
+   ![simple_acl](https://github.com/user-attachments/assets/5af9f46b-7f8b-4d40-af33-35713df76324)
 ```cisco
-access-list 10 deny 192.168.1.100
-access-list 10 permit any
-interface GigabitEthernet0/1
-ip access-group 10 in
+<!-- STUB (to insert correct configurations) -->
 ```
-Explanation: This ACL denies traffic from 192.168.1.100 while allowing all other traffic.
-2. Extended ACL Example (Allowing Web Traffic and Blocking FTP)
+
+2. Blocking HTTP traffic by using Extended ACLs
+    ![http_acl_filtering](https://github.com/user-attachments/assets/7dcfbd47-2764-4cac-b80a-3686399f0005)
 ```cisco
-access-list 100 permit tcp any any eq 80
-access-list 100 deny tcp any any eq 21
-access-list 100 permit ip any any
-interface GigabitEthernet0/1
-ip access-group 100 in
+<!-- STUB (to insert correct configurations)-->
 ```
-Explanation:
-Allows HTTP (port 80) traffic.
-Blocks FTP (port 21) traffic.
-Permits all other traffic.
 
 ## Conclusion
   By implementing ACLs, network administrators can enforce security policies, optimize traffic flow, and manage access effectively.
