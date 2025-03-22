@@ -32,12 +32,14 @@
 ## Examples
 
 1. Simple ACL Configuration
+   
    ![simple_acl](https://github.com/user-attachments/assets/5af9f46b-7f8b-4d40-af33-35713df76324)
 ```cisco
 <!-- STUB (to insert correct configurations) -->
 ```
 
 2. Blocking HTTP traffic by using Extended ACLs
+
     ![http_acl_filtering](https://github.com/user-attachments/assets/7dcfbd47-2764-4cac-b80a-3686399f0005)
 ```cisco
 <!-- STUB (to insert correct configurations)-->
