@@ -35,14 +35,19 @@
    
    ![simple_acl](https://github.com/user-attachments/assets/5af9f46b-7f8b-4d40-af33-35713df76324)
 ```cisco
-<!-- STUB (to insert correct configurations) -->
+access-list 101 deny ip 192.168.2.0 0.0.0.255 192.168.1.0 0.0.0.255
+interface GigabitEthernet0/0
+ip access-group 101 in
 ```
 
-2. Blocking HTTP traffic by using Extended ACLs
+2. Blocking HTTP traffic and allowing HTTPS by using Extended ACLs
 
     ![http_acl_filtering](https://github.com/user-attachments/assets/7dcfbd47-2764-4cac-b80a-3686399f0005)
 ```cisco
-<!-- STUB (to insert correct configurations)-->
+access-list 101 permit tcp 203.0.113.0 0.0.0.255 host 10.0.1.2 eq 443
+access-list 101 deny tcp 203.0.113.0 0.0.0.255 host 10.0.1.2 eq 80
+interface GigabitEthernet0/1
+ip access-group 101 in
 ```
 
 ## Conclusion
