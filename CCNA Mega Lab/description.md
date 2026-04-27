@@ -16,4 +16,4 @@ This project focuses on the following concepts:
 I will document each phase of this project when I'll start implementing them.
 
 ## Disclaimer
-The network topology and documentation might and will change throughout the process if the need of accomodation for certain topics arises or if other problems appear and have to be solved.
+The network topology and documentation might and will change throughout the process if the need of accomodation for certain topics arises or if other problems appear and must be solved.
