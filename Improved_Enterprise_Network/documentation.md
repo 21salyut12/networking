@@ -34,5 +34,5 @@ Subnets:
 192.168.40.1 - gateway
 192.168.40.2 - .14 gazde (16 block size, 255.255.255.240 subnet mask)
 
-![DHCP Server](Improved_Enterprise_Network/dhcp_server.png)
+![DHCP Server](dhcp_server.png)
 *DHCP Server*
