@@ -36,3 +36,9 @@ Subnets:
 
 ![DHCP Server](dhcp_server.png)
 *DHCP Server*
+
+### Note for 25.06.2026:
+- Created VLANs for each subnet including the servers
+- Added description to alredy connected interfaces
+- Configured a user and encrypted password for when logging into the device (router for now) via locally or via SSH. Therefore also implemented SSH for remote access.
+- Implemented DAI (Dynamic ARP Inspection) and DHCP Snooping for the switch's interfaces connected to servers, just in case, for better security.
